@@ -15,7 +15,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git branch: 'master', credentialsId: 'git-cred', url: 'https://github.com/charanrajkumar-ge/simple-java-maven-app.git'
+                git branch: 'master', credentialsId: 'dsad', url: 'https://github.com/charanrajkumar-ge/simple-java-maven-app.git'
             }
         }
 
